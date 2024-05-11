@@ -9,47 +9,47 @@ This project aims to analyze customer reviews using various Natural Language Pro
 
 ## Project Structure
 
-- 📁 `frontend/`: Frontend codebase built with React.
-- 📁 `backend/`: Backend codebase built with Flask and SQLAlchemy.
+- 📁 `static/`: CSS for the html pages.
+- 📁 `templates/`: HTML pages for the frontend.
+- 📁 `app.py/`: Contains the flask code for backend.
+- 📁 `Reviews.ipynb/`: Notebook containing the algorithms and graphs for various models.
+- 📁 `Reviews.py/`: Contains OOPs concepts involved in our project.
+- 📁 `AD.csv/`: Dataset for our project.
+- 📁 `AD_cleaned.csv/`: Dataset after tokenization and lemmatization.
+- 📁 `sentiment_analysis_results.csv/`: Dataset with results.
 
 ## Getting Started
 
 To get started with SoulHouse, follow these steps:
 
-1. **Clone the repository**: git clone https://github.com/JainSneha6/SoulHouse.git
+1. **Clone the repository**: git clone https://github.com/JainSneha6/CustomerReviewAnalysis.git
    
-3. **Navigate to the project directory**: cd SoulHouse
+2. **Navigate to the project directory**: cd CustomerReviewAnalysis
    
-5. **Install frontend dependencies**:
+3. **Create a virtual environment**:
    
-      - cd frontend
-      - npm install
-6. **Create a virtual environment for backend**:
-   
-      - cd backend
       - python3 -m venv venv
         
-8. **Activate the virtual environment**:
+4. **Activate the virtual environment**:
    
       - On Windows: venv\Scripts\activate
       - On macOS and Linux: source venv/bin/activate
         
-10. **Install backend dependencies**:
-    
-      - cd ../backend
-      - pip install flask, cors, sql_alchemy
-        
-12. **Run the frontend server (runs on port 3000 by default)**:
-    
-       - cd ../frontend
-       - npm start
+5. **Install dependencies**:
+   
+      - Flask
+      - nltk
+      - scikit-learn
+      - vaderSentiment
+      - pandas
+      - numpy
+      - matplotlib
 
-13. **Run the backend server (runs on port 5000 by default)**:
+6. **Run the backend server (runs on port 5000 by default)**:
+   
+      - python app.py
 
-      - cd ../backend
-      - flask run
-
-14. **Open your web browser** and navigate to `http://localhost:3000` to access the SoulHouse application.
+7. **Open your web browser** 
 
 ## Contributing
 
@@ -63,5 +63,5 @@ For any questions or feedback, feel free to reach out:
 - Siddhartha Chakrabarty - [GitHub](https://github.com/SiddharthaChakrabarty) | [LinkedIn](https://www.linkedin.com/in/siddharthachakrabarty)
 - [Project Repository](https://github.com/JainSneha6/SoulHouse)
 
-Enjoy the music! 🎶
+Uncover insights in customer reviews effortlessly! 📊
 
