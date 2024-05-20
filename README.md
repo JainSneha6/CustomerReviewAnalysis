@@ -11,12 +11,12 @@ This project aims to analyze customer reviews using various Natural Language Pro
 
 - 📁 `static/`: CSS for the html pages.
 - 📁 `templates/`: HTML pages for the frontend.
-- 📁 `app.py/`: Contains the flask code for backend.
-- 📁 `Reviews.ipynb/`: Notebook containing the algorithms and graphs for various models.
-- 📁 `Reviews.py/`: Contains OOPs concepts involved in our project.
-- 📁 `AD.csv/`: Dataset for our project.
-- 📁 `AD_cleaned.csv/`: Dataset after tokenization and lemmatization.
-- 📁 `sentiment_analysis_results.csv/`: Dataset with results.
+- 📄 `app.py/`: Contains the flask code for backend.
+- 📄 `Reviews.ipynb/`: Notebook containing the algorithms and graphs for various models.
+- 📄 `Reviews.py/`: Contains OOPs concepts involved in our project.
+- 📄 `AD.csv/`: Dataset for our project.
+- 📄 `AD_cleaned.csv/`: Dataset after tokenization and lemmatization.
+- 📄 `sentiment_analysis_results.csv/`: Dataset with results.
 
 ## Getting Started
 
