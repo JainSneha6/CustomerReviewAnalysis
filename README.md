@@ -1,6 +1,6 @@
 # Customer Sentiment Analysis
 
-This project aims to analyze customer reviews using various Natural Language Processing (NLP) techniques. The system utilizes Vader's Sentiment Analysis, K-Nearest Neighbors (KNN), and Multinomial Naive Bayes algorithms to classify and understand the sentiment expressed in the reviews. Additionally, the project includes a frontend and backend developed using Flask, a Python web framework.
+This project aims to analyze customer reviews using various Natural Language Processing (NLP) techniques. The system utilizes Vader's Sentiment Analysis, Support Vector Classifier, and Multinomial Naive Bayes algorithms to classify and understand the sentiment expressed in the reviews. Additionally, the project includes a frontend and backend developed using Flask, a Python web framework.
 
 ## Preview of the Website
 
